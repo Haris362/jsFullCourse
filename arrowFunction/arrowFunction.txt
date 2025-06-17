@@ -1,0 +1,17 @@
+1.Arrow function:-
+                Arrow function is basically a function which is the shortest form of function.there are two
+                methods to make an arrow function.
+                
+                (i).Implicit return function:-
+                An implicit return function is arrow function in which we cannot use return.In,implicit we 
+                cannot use curly braces{}.it is automatically return the value.
+                Syntax:
+                        const myFunc = ()=>
+                            console.log("Hello World")
+                (ii).Explicit return function:-
+                An explicit return function is arrow function in which we are using return.In explicit we
+                can use curly braces{}.
+                Syntax:
+                        Const myfunction = () =>{
+                            return console.log("Hello haris how are you?")
+                        }

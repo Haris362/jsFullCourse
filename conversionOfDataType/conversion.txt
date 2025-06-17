@@ -1,0 +1,16 @@
+>>Explaination about first conversion of string into number 
+First we are initiallize the variable with score name and pass it value in string "33abs" which is
+not only a number there is some alphabets in it.So,thats why when we change its datatype in second variable
+and we console it give us NaN in output which means (Not a Number).
+
+>>Explaination about conversion of boolean into number
+First we are initiallize the variable with (confirmation) name and give it value true which is boolean
+data type and in second step we are again initiallize the variable with name (confirmationInNumber)
+in this step we are changing the data type of confirmation value by using (Number) data type.
+Its give us output "1" becuase in confirmation variable we give it value true and the value of true in 
+number is 1.
+
+String interesting functions:-
+if we are adding and subtracting multiple values and use string value in it then we face some problem i.e
+1.If we use the string number first in solving the problem then it is treatable as a string. 
+2.If we use the string number in the end in solving the problem then it is treatable as a number not as a string.

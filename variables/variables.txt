@@ -1,0 +1,28 @@
+>> Variables:-
+Variables are like a container or box in which we can store any thing in it for example:-we have a box
+which is full of some fruits so we can say it a variable. 
+There are three to four methods to create variables in javaScript.these all are given below with detail:-
+
+1.Var method:-
+            Var is the first method to create a variable which is used in ancient times in js.It is used
+            in these days but it is not reliable becuase when we initiallize the variable one time with
+            any word and again we give it the new value the new value is stored in the previous variable
+            which is not appropriate.
+            Syntax:
+                var nameofvariable = "What ever you want to store in it is it number or string this is your choice"
+
+2.Let method:- 
+            Let is the second method to create a variable which is Block scope it is not changable and not
+            re-initiallized.This is the best method to create a variable.
+            Syntax:
+                let nameofvariable = "What ever you want to store in it is it number or string this is your choice"
+
+3.Const method:-
+            Const is the third method utillize to create a variable which have constant value and it is 
+            block scope variable which is not re-initiallized. 
+            Syntax:
+                const nameofvariable = "What ever you want to store in it is it number or string this is your choice"
+
+4.Direct method:-
+            In direct method we are not using let,var and const we can directly initiallize the variable likethis.
+            nameofvariable = "What ever you want to store in it is it number or string this is your choice"

@@ -1,0 +1,9 @@
+We know that math is used in all science branches.Similarly in programming math is a main core for simplify
+the problems.Js provides us a (Math) object which have a built-in-function.
+for example:-
+            random() Function is used to get random numbers. 
+            round() Function is used to round of the numbers. 
+            floor() Function is used to round of the less number.
+            ceil() Function is used to round of the value to large number.
+            abs() Funxtion means absolute which is used to convert the negative value into positive value.
+            

@@ -1,0 +1,18 @@
+Functions:-
+        Function is a block of code which is used to perform any task.function is helpful when we are using
+        the one value repeatedly. how we can use functions and get its value? where you want to get value 
+        from function call the function by its name and use paranthesis at the end of the function.
+        In,Functions we can use parameters and arguments.Parameters are like a variable which can store 
+        value.Arguments are those value which are stored in the parameter.
+        For example:-
+        1.Assume that machine is a function.
+        2.Parameter is a knob of machine which can change the values.
+        3.Arguments are values which are set by the knob of machine.
+        Syntax:-
+                function myFunction(num1,num2){
+                       return num1+num2 
+                }
+                myFunction(2,34)
+
+In,functions some amazing things that is we can add elements of array and objects in functions.
+its explaination in the code from line 19 to 43 line

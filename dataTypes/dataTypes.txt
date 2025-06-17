@@ -1,0 +1,52 @@
+Data types:-
+            Data type is suggest that which type of data is stored in computer or in variables.
+            Data is present in computer or variables in different types like in string,boolean,
+            number,null etc.There are two types of data types i.e primitive and non-premitive.
+There are seven types of primitive data types in js i.e
+
+i:-Primitive data types:-
+            Primitive data type is a immutable (unchangable) there are seven data type which are
+            given below with detail.
+
+1.Null:-
+      Null is the data type of js which is used to show that the variable is null that means it 
+      have no value.Oftenly null is called Stand alone becuase its show that the value is empty
+      this is your own that you are intentionally showing the null value,value is really empty.
+      when we check the type of the null variable it gives that te type of null is object which
+      is the ambiguity of the js.
+
+2.Number:-
+      Number is a data type of js which is simply a number pass in the variable.             
+
+3.String:-
+      String is a data type of js which is mostly used in js to store the text,numbers,spaces
+      in the variables by using quotes we can use single ('') and double (" ") both quotes.
+
+4.Symbol:-
+       Symbol is add in the js recently which is used to give a unique things which is mostly used
+       in nodejs.
+
+5.Boolean:-
+        Boolean is the data type of js which are present in two types true/false means 0 and 1.
+
+6.BigInt:-  
+        BigInt is used to store the value which is very have very large length this is used in
+        trading apps and other apps having big ammount of data.
+
+7.Undefined:-
+        Variable is declared but not give it value so it gives undefined.so similarly ndefined is 
+        like only variable is declared not give it values
+
+ii:-Non-primitive data type:-
+        Non-primitive daa type is mutable(changable) data type which are objects,array,functions.
+
+Bonus Tips:-
+1."type of" is used in js to check the type of the data stored in the variable.
+2.To memorized the data types of js used the words (nn,ss,bb,u)
+N for Null
+N for Number
+S for String
+S for Symbol
+B for BigInt
+B for Boolean
+U for Undefined

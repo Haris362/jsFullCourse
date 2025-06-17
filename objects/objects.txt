@@ -1,0 +1,23 @@
+Objects:-
+        Objects are used to store multiple values with their keys and values in it.
+We can create objects by two methods:-
+1.Object which is make using constructor is called singleton.Here,constructor is "new".
+Syntax:
+        const obj = new Object();
+        Add values in singleton object by this method:
+        
+        name_Of_Obj.keys = "Which thing you want to add"
+        obj.name = "Albert";
+
+2.Object which is made up of curly brackets {} is called literals.
+Syntax:        
+        const obj2 = {};
+        const obj3 = {
+            key:"Add any thing you want"
+        }
+We know that wecan merge multiple array in one array.Same as we can merge the multiple objects in one
+objects.
+1.By using assign:-
+            const mergeObjects = Object.assign(obj1,obj2);
+2.by using spread (...):-
+            const mergeObjects2 = {...obj1,...obj2};

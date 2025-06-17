@@ -1,0 +1,15 @@
+Data types are very interesting in the js.Because when we are changing the data type into another data type
+some new features are added in it.For Example:when we are changing the number(which is primitive data type)
+into non-primitive data type this changing make a number into object which give us more functions which can
+make changes in the values by using the available functions of objects.we can change the numbers into the
+objects using word "new" and use the data type you want and store value in it.
+                const score = new Number(120)
+
+Similarly when we are changing the string into the Non-primitive data type means in objects.Objects give us
+some functions which helpus for our for make changes and seen the nature of the value.
+                const name = new String("Haris")
+
+Bonus Tips:-
+1.There is some confusion in the conditional operations of the js because the (=) single equal to give a 
+value and two equals to(==) compare the two things only and three equals to (===) comapre the values and
+check their data types.

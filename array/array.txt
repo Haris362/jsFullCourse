@@ -1,0 +1,16 @@
+1.Array:-
+        Array is used to store the different type of data in one variable.Array is denoted by square
+        brackets[].array is non-primitive becuase if we want its value their references are directly
+        given.
+        const arr = ["Butter","Milk","Bread","Eggs"]
+Array provide some methods which are used to perform some particular tasks.some array methods are given
+below:
+1.Concat() used to merge multiple arrays in one array.
+2.Push() used to put some values in array at last index.
+3.Pop() is used to remove element from last index.
+4.Shift() is used to remove element from first index.
+5.UnShift() is used to add elements at first index.
+6.from() is used to convert different type of data into array.
+7.Join() is used to add seperator between array elements.
+8.Slice() is used to cutof the some array elements into new array in this method two conditions we can
+give it starting and ending point.

@@ -1,0 +1,4 @@
+Scope is like a boundary in which we can use the available things in this boundary.Some scopes are 
+given below:-
+1.Global scope:-
+            Global scope is a scope use everwhere in program

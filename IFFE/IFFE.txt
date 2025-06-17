@@ -1,0 +1,7 @@
+1.IFFE:-
+        IFFE is used to call the function immediately.Function is used inside the () and call
+        it immediatly by round brackets().
+        Syntax:-
+                (Function{})
+                () //call function by paranthesis.
+IFFE is used to save the function from global pollution.
