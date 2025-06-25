@@ -1,0 +1,24 @@
+And opreator:-
+            And is a logical opreator and opreator is work when all conditions are true if all 
+            conditions are true then its will work and if any one condition is become false its
+            not work.And opreator is working on boolean values which are true/false and is denoted
+            by (.) which is used for multiplication.So when we convert the boolean values into number
+            it give us 1 for true and 0 for false when all condtions are true so it is looking like 
+            this(1.1.1.1 = 1).If any one condition is become false the answer is false which is zero
+            (1.1.0.1 = 0)
+            Syntax:-    
+                    Condition-1 && Condition-2
+
+Or opreator:-
+            Or opreator is a logical opreator or opreator is working when one condition is true.
+            Or is denoted by (+) in or opreator all outputs are adding.When all values are true 
+            it is still working and if only one value is true it is still working but all values are
+            become zero it is not work becuse (0+0+0+0 = 0 which is false)
+            Syntax:-    
+                    Condition-1 || Condition-2
+
+Not opreator:-
+            Not opreator is make the input opposite for example we are getting true output from user 
+            and use not opreator with it change true into false.
+            Syntax:-    
+                    !Condition-1 
