@@ -1,0 +1,17 @@
+Switch
+       Switch is the short form of if else it is rearly used.In,worst case if else is used in conditions.
+       Switch accept multiple condition and switch is not allow to use the opreator rather than
+       strict equal to (===).We cannot write these strict equals in code it is automatically used in code.
+       Syntax:
+            switch (key(value on which you are apply conditions)){
+                case "expression":
+                //code
+                break;
+
+                default:
+                //code
+                break;
+            }
+       Here, in case line the expression is the value which is comparing you with your current value.
+       break is used to stop the code here if condition satisfy.First case behave as a (if) and the other 
+       cases after the first case behave as a (else if) and default is used as else.

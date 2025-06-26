@@ -1,37 +1,55 @@
 1.Pop():-
     Pop method is used to remove the last element of array.
+    Syntax:-
+            arrayName.pop()
 
 2.Push():-
     Push is used to add an element in array at last index.
+    Syntax:-
+            arrayName.push("Value you want to add in array at last index")
 
 3.Shift():-
     Shift is utilize to remove element from the start of array.
+    Syntax:-
+            arrayName.shift()
 
 4.Unshift():-
     Unshift is the array method which is used to add an element in array at the beginning.
+    Syntax:-
+            arrayName.unShift("Value you want to add in array at first index")
 
 5.At():-
     At is used to access the element on the given index in the array.In at method we can use
     both positive and negative value.
+    Syntax:-
+            arrayName.at("Index of the value in array")
 
 6.Concat():-
     Concat is used to combine the multiple arrays in one array.
+    Syntax:-
+            firstArrayName.concat("second array name")
 
 7.Join():-
     Join is used to place the seperator between the arrays element.
+    Syntax:-
+            arrayName.join("Seprator you want to add between the elements of array)
 
 8.Delete():-
     Delete is used to delete the element on the given index,but in delete method their 
     is amazing thing present which is that when we delete an element from an array on 
     the place of the deleted element empty or undefind written.
-
+    Syntax:-
+            delete arrayName["index of element to delete"]
 9.Splice():-
     Splice is used to add and remove elements on the given indexes.this is used for both adding
     and removing the elements in array.
     Syntax:-
         ArrayName.Splice(start,delete Values,add,add,...)   
+
 10.Slice():-
     Slice is used to slice some elements from array.
+    Syntax:-
+            arrayName.slice(start,end);
 
 11.Include():-
     If we want to check that the element is present in array. we can use include() method to check it.
@@ -56,21 +74,17 @@
         ArrayName.fill(value,start,end)
 
 16.Sort():-
-    Sort is easy to use it is use to sort the number array in ascending order and sort the alphabets array in 
-    alphabetic arrangment.
+    Sort is easy to use it is use to sort the number array in ascending and descending order and sort the alphabets 
+    array in alphabetic arrangment.
 
 17.Some():-
     Some is used to apply conditions on array if any one element of array satisfy the condition it returns true.
     However if condition is not true it give false.
 
 18.Every():-
-    Every method is slightly different from some its function is similar to the some but it gives true when all
-    elements of array satisfy the condition.
+    Every method is slightly different from some method its function is similar to the some method but it give us true
+    when all elements of array satisfy the condition.And all elements not satisfy the condition its return false.
 
-1.Includes
-2.IndexOf 
-3.LastIndexOf 
-4.Some
-5.Every
-6.sort
-7.fill
+19.Filter():-
+    Filter is the array methods use to get all values that full fill the condition in new array.It's not change
+    the old array its make a new array and put values in it.

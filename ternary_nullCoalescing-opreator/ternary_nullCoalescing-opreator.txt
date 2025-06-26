@@ -1,0 +1,15 @@
+Ternary opreator:-
+                This opreator is denoted by (?) it is the short form of the if else.By using this opreator
+                we can easily handle the multiple condition.Ternary opreator is used to make a code clean 
+                becuase when we are using the if else the code is become very longer.
+                Syntax:
+                       condition ? expression1 : expression2 
+                       condition ? doThisIfTrue :doThisIfFalse;
+
+Nullish Coalescing opreator:-
+                 This opreator is very useful when we are getting data from data base.It is denoted by
+                 (??) it is used to check whether the value is null in variable or data which is getting
+                 from the data base.If value is null it returns the value after the opreator mean returns
+                 default value.
+                 Syntax:
+                     variableName ?? expression...
