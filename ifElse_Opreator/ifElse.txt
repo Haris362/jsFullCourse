@@ -1,0 +1,28 @@
+If else:-
+        If else is used to apply conditions on any value.If we have a two conditions then use (if-else).
+        and if we have a multiple conditions then we can use (if else-if and else).it is easy to use and 
+        very use able in js.
+        Working:-
+        It checks a condition, and:
+        If the condition is true, it runs one block of code.
+        If the condition is false, it runs a different block of code.
+
+
+        Syntax of if-else:-
+                if (condition){
+                    //Code here
+                }
+                else {
+                    //Code here
+                }
+            
+        Syntax of if else-if and else:-
+                if (condition){
+                    //Code here
+                }
+                else if(condition){
+                    //Code here
+                }
+                else{
+                    //Code here
+                }
