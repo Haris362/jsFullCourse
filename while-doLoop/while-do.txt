@@ -1,0 +1,15 @@
+While Do loop:-
+            While do loop is used to perform any task repeatedly.it is used to perform the task in less time.
+            We can use individually while loop and use the both while and do loop.In (do) write the code and
+            condition is written inside the (while).And when we are using the while loop individually both 
+            code and condition is written inside it.While is rarely used wostly other loops like
+            (for,foreach etc) is used.
+            Syntax:-
+                    while (condition){
+                        //code
+                    }
+
+                    do {
+                        //code
+                    }
+                    while (condition);

@@ -1,0 +1,23 @@
+For loop:-
+        A for loop is used when you want to repeat your code more times.Basically it is used to iterate the 
+        code.In for loop first step is to initiallize the variable and second step is to give the condition
+        and the last step is your choice you want to increase/decrease.For loop have break and continue 
+        feature.Break is helpful to stop the iteration and continue is used to skip the entire value and go
+        to the next step.
+        Example of for loop:- You want to print your name 100 time you write (console.log) 100 times which is
+        very time consuming.Instead of write the code 100 times you can use for loop.
+        Syntax:-
+                Normal for loop syntax
+                for (initiallization,condition,increment/decrement){
+                    //Code
+                }
+                For loop syntax with break
+                for (initiallization,condition,increment/decrement){
+                    //code
+                    break;
+                }
+                For loop syntax with continue
+                for (initiallization,condition,increment/decrement){
+                    //code
+                    continue;
+                }
