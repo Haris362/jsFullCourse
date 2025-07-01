@@ -1,0 +1,61 @@
+DOM Introduction:-
+                DOM means (Document Object Model) DOM used by js to make changes like on click on 
+                button changes the colour and get the value.Basically DOM is used by js to add changes
+                and add new things.
+                Here,
+                    Document means = Html file.
+                    Object means = Elements like p,button,a.etc are become object.
+                    Model means = Structure or map in which the code is persent.
+
+(a):Changes make by js using DOM:-
+In HTML elements are present in parent and child.Child present inside the parent.We can get the all child
+elements that are present inside the parent.
+
+Syntax to get elements in parents:- 
+const element = document.getElementById('id-of-element')
+console.log(element.children)
+                             
+(b):Methods to select the html elements in js:-
+1.getElementById('idOfElement'):-
+            This is used to get the element present in the html file by id.                        
+            Syntax:-
+                    document.getElementById('elementId')    
+2.getElementByClassName('classOfElement'):-
+            this is similar to the (getElementById) but in this method give class name.
+            Syntax:-
+                    document.getElementByClassName('elementClass')    
+
+3.querrySelector():-
+            querrySelector is the one of the most popular html elements selector because its get element
+            by their tag name,class,id.But when we are getting the element by class before its class 
+            use(.) and when we are getting element using id place (#) before the id.
+            querySelector the one element and first element which is present inside the html code.
+            Syntax:-
+                    document.querrySelector('your choice how you want to get element by class id or tag name')
+
+4.querrySelectorAll():-
+            Its function is similar to the querrySelector only one change is that its select all elements
+            that are present inside the parent.
+            Syntax:-
+                    element/document.querrySelector("your choice)
+5.Select parents child;
+            We can get the all childs present in the parent.and get parent element using child.
+            Syntax:-
+                    const parent = document.createElement("div")
+                    console.log(parent.children)//Getting childs using parent element.
+
+                    console.log(child.parentElement)//Getting parent using child
+(c):Add/Remove DOM Elements:-
+1.Add elements:-
+                In js if you want to add any node in dom file first make a element make the element using
+                createElement() it is used to createElement with their names in paranthesis(like div).And 
+                secondly add the element by using appendChild() this is usedto add element 
+                in the element used before it.
+                Syntax:-
+                        const div = document.createElement("div");
+                        document.body.appendChild(div)
+2.Remove:-
+         We can easily remove the elements from dom using the remove()
+         Syntax:-
+                element.remove()                           
+
