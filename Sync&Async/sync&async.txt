@@ -26,5 +26,15 @@ Asynchronous:-
             1.function().
             2.Delay time.
             Syntax:-
-                setTimeout+
+                setTimeout (function(){})
 2.setInterval():-
+            Set interval is used to give delay on some code but set interval is do the task again and
+            again.
+            Syntax:-
+                setInterval(function(){},time of delay)
+
+3.clearTimeOut and interval():-
+            Clear interval is used to stop the delay its gets some refrence.the refrence is the time
+            apply on the element.
+            Syntax:-
+                    clearTimeInterval(refrence);

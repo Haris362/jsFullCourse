@@ -10,4 +10,9 @@ console.log(1);
 setTimeout(function(){
     console.log(2);
 },2000)
+const delay = setTimeout(function(){
+    console.log(8);
+},3000)
 console.log(3);
+
+clearTimeout(delay);
