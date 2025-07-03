@@ -34,7 +34,8 @@ Asynchronous:-
                 setInterval(function(){},time of delay)
 
 3.clearTimeOut and interval():-
-            Clear interval is used to stop the delay its gets some refrence.the refrence is the time
-            apply on the element.
+            Clear interval and clearTimeOut is used to stop the delay its gets some refrence.the
+            refrence is the delay time apply on the element.
             Syntax:-
-                    clearTimeInterval(refrence);
+                    clearInterval(refrence);
+                    clearTimeOut(refrence);
