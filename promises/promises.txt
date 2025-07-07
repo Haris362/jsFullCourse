@@ -1,0 +1,2 @@
+1.Promise:-
+        Promise is used 

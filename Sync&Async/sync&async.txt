@@ -1,0 +1,41 @@
+Synchronous:-
+            Synchronous means code runs one line at a time in order and js is a single threaded it do
+            one task at a time and not do the second task while the first line of code is not executed. 
+            Example:-
+                console.log(1);
+                console.log(2);
+                console.log(3);
+            Here,1 is printed and then 2 is printed at the end 3 is printed.
+
+Asynchronous:-
+            Asynchronous is a code which is not stop the execution of code and doing work in the
+            background.
+            Example:-
+                console.log(1);
+                setTimeout(function(){
+                     console.log(2)   
+                },2000) 
+                console.log(3);
+            Here,first 1 is printed and at the second console we are using setTimeOut()which make delay
+            on printing which is running at the background.In this delay time 3 is printed.
+
+1.setTimeOut();-
+            This is use to give delay.This is a asynchronous method because the code is executing
+            and the delayed code is working in the background.This method is work one time.
+            In setTimeOut gets 2 parameters :-
+            1.function().
+            2.Delay time.
+            Syntax:-
+                setTimeout (function(){})
+2.setInterval():-
+            Set interval is used to give delay on some code but set interval is do the task again and
+            again.
+            Syntax:-
+                setInterval(function(){},time of delay)
+
+3.clearTimeOut and interval():-
+            Clear interval and clearTimeOut is used to stop the delay its gets some refrence.the
+            refrence is the delay time apply on the element.
+            Syntax:-
+                    clearInterval(refrence);
+                    clearTimeOut(refrence);

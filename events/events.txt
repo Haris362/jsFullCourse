@@ -1,0 +1,46 @@
+Events intro:-
+        An event is something that happens in the web page — like:
+A click
+
+A key press
+
+A mouse movement
+
+A form submit
+
+A scroll
+
+Or when the page loads etc.
+We can add events on the html elements using (element.addEventListener('event name',function(){})).In addEventListener we can use parameter
+in which some methods present.In addEventListener 3 parameters used:-
+1.Event.
+2.function().
+3.true/false.
+
+In,addEventListener first 2 parameters are given by our.But false is default value which is set in it automatically.Here we can use true and 
+false but both have different function.
+
+1.false is used for bubbling:- is used to get the parent element from child element.
+2.false is used for capturing:- is used to get the child element from parent element.
+
+1.Click:-
+        This event is very useable its function is to make changes or get values from input.like click on button changing background colour.
+        Syntax:-
+            button.addEventListener('click',function(){
+                document.body.style.background = `red`;
+            })
+
+2.Keydown:-
+        This event is used to apply conditions when any key is pressed or get the target key by using (e.key.target).Here 'e' is the 
+        parameter which is explain in events intro which give a method 'key and target' 'key' is used for the key which you pressed
+        and 'target' is used to get the key which is pressed.
+        Syntax:-
+                element.addEventListener("Keydown",function(){
+
+                })
+
+3.Keyup:-
+        Keyup used to apply conditions when key is pressed down and move upward here when key is move up condition is satisfy means apply.
+        Syntax:-
+                element.addEventListener("keyup",function(){}) 
+
