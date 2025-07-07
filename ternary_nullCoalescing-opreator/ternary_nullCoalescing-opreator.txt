@@ -9,7 +9,7 @@ Ternary opreator:-
 Nullish Coalescing opreator:-
                  This opreator is very useful when we are getting data from data base.It is denoted by
                  (??) it is used to check whether the value is null in variable or data which is getting
-                 from the data base.If value is null it returns the value after the opreator mean returns
-                 default value.
+                 from the data base.If value is null it returns the value after the (Nullish Coalescing opreator)
+                 mean returns default value.
                  Syntax:
                      variableName ?? expression...

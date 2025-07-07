@@ -1,6 +1,6 @@
 // Normal for loop example
 for (let i=0; i<10;i++){
-    console.log("Hello World");//its pint hello world in console 10 times
+    console.log("Hello World");//its print hello world in console 10 times
 }
 
 // For loop exmaple on array
