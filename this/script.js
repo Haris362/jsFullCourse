@@ -13,3 +13,14 @@ const user = {
 user.welcomeMessage()
 user.newMessage()
 
+
+
+function developer(name,experience,isLoggedIn,greet){
+    this.name = name;
+    this.experience = experience;
+    this.isLoggedIn = isLoggedIn;
+    this.greet = greet;
+}
+const newUser = new developer("Haris","1 year",true,function greet(){console.log("Work in google");});
+console.log(newUser);
+
